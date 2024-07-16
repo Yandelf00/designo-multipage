@@ -19,6 +19,7 @@ const config: Config = {
       "dark":"#1d1c1e",
       "white": "white",
       "rose":"#fdf3f0",
+      "monalisa":"#FFA692",
     },
     screens : {
       '2xl': {'max': '1535px'},

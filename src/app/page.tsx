@@ -4,6 +4,7 @@ import Hero from "@/components/Hero";
 import Leaf from "@/components/Leaf";
 import Gallery from "@/components/Gallery";
 import Stickers from "@/components/Stickers";
+import Footer from "@/components/Footer";
 
 export default function Home() {
   return (
@@ -13,6 +14,7 @@ export default function Home() {
       <Hero/>
       <Gallery/>
       <Stickers/>
+      <Footer/>
     </main>
   );
 }
