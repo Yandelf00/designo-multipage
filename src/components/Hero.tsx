@@ -1,9 +1,10 @@
 import React from 'react'
 import Image from 'next/image'
+import Link from 'next/link'
 
 export default function Hero() {
   return (
-    <div className='w-full mt-[100px] flex justify-center pl-10 pr-10'>
+    <div className='w-full mt-[60px] flex justify-center pl-10 pr-10'>
         <div className='w-[1010px] relative h-[620px] bg-main rounded-lg'>
             <HeroPattern/>
             <div className='flex flex-row w-full h-full'>
@@ -13,10 +14,12 @@ export default function Hero() {
                     <h2 className='text-white text-[20px]'>With over 10 years in the industry, we are experienced 
                         in creating fully responsive websites, app design, and 
                         engaging brand experiences. Find out more about our services.</h2>
-                    <button className='text-black font-bold
-                    bg-white h-[50px] w-[170px] rounded-lg
-                    hover:bg-rose transition
-                    ease-in-out duration-200'>Learn more</button>
+                    <Link href={'/company'}>
+                        <button className='text-black font-bold
+                        bg-white h-[50px] w-[170px] rounded-lg
+                        hover:bg-rose transition
+                        ease-in-out duration-200'>Learn more</button>
+                    </Link>
                 </div>
                 <div className='w-1/2 h-full flex items-end'>
                     <div className='w-full h-[80%] bg-[url("/assets/home/desktop/image-hero-phone.png")]

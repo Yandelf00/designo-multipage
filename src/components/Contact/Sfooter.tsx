@@ -7,11 +7,11 @@ import { FaTwitter } from "react-icons/fa";
 import { FaPinterest } from "react-icons/fa";
 import Link from 'next/link';
 
-export default function Footer() {
+export default function Sfooter() {
   return (
-    <div className='w-full h-[600px] relative flex justify-center'>
+    <div className='w-full h-[400px] relative flex justify-center'>
         <div className='w-full h-[400px] bg-dark absolute flex justify-center items-end bottom-0'>
-            <div className='w-[1000px] flex flex-col space-y-5 h-[250px] '>
+            <div className='w-[1000px] flex flex-col space-y-5 h-[350px] '>
                 <div className='w-full h-[70px] flex flex-row justify-between
                 border border-x-0 border-t-0 border-b-1 border-white items-center pr-5 pl-5 '>
                     <Image src={'/assets/shared/desktop/logo-light.png'} alt='logodark' height={200} width={200} priority/>
@@ -49,24 +49,6 @@ export default function Footer() {
                         <FaInstagram className='w-7 h-7 fill-main cursor-pointer'/>
                     </div>
                 </div>
-            </div>
-        </div>
-
-        <div className='w-[1000px] bg-main z-50 flex flex-row 
-        bg-[url("/assets/shared/desktop/bg-pattern-call-to-action.svg")] 
-        h-[310px] rounded-2xl'>
-            <div className='flex h-full w-3/4 space-y-10 px-20 justify-center text-white flex-col'>
-                <h1 className='text-[30px] font-bold'>Lets talk about your project</h1>
-                <p>Ready to take it to the next level? 
-                    Contact us today and find out how 
-                    our expertise can help your business grow.</p>
-            </div>
-            <div className='h-full w-1/4 flex justify-center items-center'>
-                <Link href={'/contact'}>
-                    <button className='w-[170px] h-[60px] bg-white text-dark
-                    hover:bg-monalisa hover:text-white transition ease-in-out duration-200
-                    text-[15px] rounded-lg font-bold'>Get in Touch</button>
-                </Link>
             </div>
         </div>
     </div>
