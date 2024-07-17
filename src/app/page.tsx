@@ -10,7 +10,6 @@ export default function Home() {
   return (
     <main className="w-full">
       <Leaf/>
-      <Navbar/>
       <Hero/>
       <Gallery/>
       <Stickers/>
