@@ -27,6 +27,8 @@ const config: Config = {
 
       'xl': {'max': '1279px'},
 
+      'ml' : {'max':'1000px'},
+
       'lg': {'max': '950px'},
 
       'md': {'max': '850px'},
