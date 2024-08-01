@@ -5,7 +5,6 @@ import Image from 'next/image'
 export default function Stickers() {
   return (
     <div className='w-full mt-[150px] relative flex justify-center'>
-        <LeafTwo/>
         <div className='h-[500px] z-50 w-[1010px] flex flex-row space-x-5'>
             <div className='w-1/3 flex flex-col items-center space-y-5'>
                 <div className='w-[200px] h-[200px] bg-[url("/assets/shared/desktop/bg-pattern-small-circle.svg")]'>

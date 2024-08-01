@@ -7,8 +7,8 @@ export default function Hero() {
     <div className='w-full mt-[60px] flex justify-center pl-10 pr-10'>
         <div className='w-[1010px] relative h-[620px] bg-main rounded-lg'>
             <HeroPattern/>
-            <div className='flex flex-row w-full h-full'>
-                <div className='w-1/2 flex flex-col space-y-10 items-start justify-center pl-20 pr-1'>
+            <div className='flex flex-row md:flex-col w-full h-full'>
+                <div className='w-1/2 md:w-full flex flex-col space-y-10 md:justify-center md:items-center items-start justify-center pl-20 pr-1'>
                     <h1 className='text-white
                     font-bold text-[30px]'>Award-winning custom designs and digital branding solutions</h1>
                     <h2 className='text-white text-[20px]'>With over 10 years in the industry, we are experienced 
@@ -21,8 +21,8 @@ export default function Hero() {
                         ease-in-out duration-200'>Learn more</button>
                     </Link>
                 </div>
-                <div className='w-1/2 h-full flex items-end'>
-                    <div className='w-full h-[80%] bg-[url("/assets/home/desktop/image-hero-phone.png")]
+                <div className='w-1/2 md:w-full h-full md:justify-center flex items-end'>
+                    <div className='w-full md:w-[300px] md:h-[300px] bg-[url("/assets/home/desktop/image-hero-phone.png")]
                     bg-cover bg-no-repeat bg'></div>
                 </div>
             </div>

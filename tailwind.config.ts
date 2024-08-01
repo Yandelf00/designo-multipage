@@ -31,7 +31,7 @@ const config: Config = {
 
       'lg': {'max': '950px'},
 
-      'md': {'max': '850px'},
+      'md': {'max': '800px'},
 
       'sm': {'max': '480px'},
     }
